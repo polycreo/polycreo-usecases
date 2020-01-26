@@ -60,8 +60,11 @@ repositories {
 }
 
 dependencies {
+	api 'org.polycreo:polycreo-services:1.0.0-rc1'
+
 	implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
 	// implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8'
+	implementation 'org.springframework:spring-tx'
 
 	// test
 	testImplementation 'org.jetbrains.kotlin:kotlin-reflect'
